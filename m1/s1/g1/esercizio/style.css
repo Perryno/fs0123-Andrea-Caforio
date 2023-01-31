@@ -1,0 +1,14 @@
+main img {
+width: 30em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+}
