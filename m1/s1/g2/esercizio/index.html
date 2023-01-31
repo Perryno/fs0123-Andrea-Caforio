@@ -21,7 +21,7 @@
       <nav>
         <ul>
           <li>Home</li>
-          <li>Articoli</li>
+          <a href="#articoli"> <li>Articoli</li></a>
           <li>job</li>
         </ul>
       </nav>
@@ -102,10 +102,12 @@
             </tr>
           </tbody>
         </table>
-        Un test di validazione potrà essere fatto tramite il tool online
-        <span>-LINK ESTERNO-</span> decicato allo scopo. Una volta ottimizato il
-        tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri
-        developers come lui:
+        <p>
+          Un test di validazione potrà essere fatto tramite il tool online
+          <span>-LINK ESTERNO-</span> decicato allo scopo. Una volta ottimizato
+          il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei
+          veri developers come lui:
+        </p>
         <iframe
           width="560"
           height="315"
@@ -126,23 +128,24 @@
         <label for="bottone">Iscriviti!</label>
         <input type="button" id="bottone" />
       </form>
-
-      <p>Articoli correlati</p>
-      <article>
-        <p>Validare il codice HTML</p>
-        <p>Categoria: develop</p>
-        <p>Data: 18-9-2020</p>
-      </article>
-      <article>
-        <p>Correggere la sintassi</p>
-        <p>Categoria: develop</p>
-        <p>Data: 16-9-2020</p>
-      </article>
-      <article>
-        <p>Meno Kb nella pagina</p>
-        <p>Categoria: ottimizzazione</p>
-        <p>Data: 30-9-2020</p>
-      </article>
+      <p id="articoli-correlati">Articoli correlati:</p>
+      <div id="articoli">
+        <article>
+          <p>Validare il codice HTML</p>
+          <p>Categoria: develop</p>
+          <p>Data: 18-9-2020</p>
+        </article>
+        <article>
+          <p>Correggere la sintassi</p>
+          <p>Categoria: develop</p>
+          <p>Data: 16-9-2020</p>
+        </article>
+        <article>
+          <p>Meno Kb nella pagina</p>
+          <p>Categoria: ottimizzazione</p>
+          <p>Data: 30-9-2020</p>
+        </article>
+      </div>
     </aside>
     <footer>
       <p>Blog Epicode &copy;2021</p>
