@@ -1,0 +1,12 @@
+div {
+  color: red;
+}
+
+div span {
+  color: rgb(3, 160, 29);
+}
+
+div,
+span {
+  border: 1px solid black;
+}

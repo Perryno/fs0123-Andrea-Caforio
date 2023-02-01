@@ -1,0 +1,83 @@
+.qtutto {
+  margin: 0 auto;
+  width: 650px;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  height: 50px;
+}
+
+header h5 {
+  color: #107777;
+  font-weight: bold;
+  background-color: #fbf9ef;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: solid #f8e2a6 1px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.qtutto .pizza {
+  width: 650px;
+  padding-bottom: 1px;
+  text-shadow: 8px 4px 8px 8px #666;
+  border-radius: 9px;
+}
+
+.qtutto .sfoto {
+  margin-top: 13px;
+  text-align: center;
+  color: #999999;
+}
+.feat {
+  padding-left: 10px;
+  border-left: solid #ffd877 1px;
+  color: #b23f05;
+  font-weight: lighter;
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+.sfeat a {
+  color: #117777;
+}
+
+.titoli {
+  font-weight: 500;
+  border-bottom: solid #c4f3f2 1px;
+  padding-bottom: 0.9rem;
+}
+
+.ingredienti h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.ingredienti li {
+  line-height: 2;
+}
+.ingredienti ul {
+  margin-top: 0.3rem;
+}
+
+.metodi span {
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+.metodi p {
+  padding-left: 2.6rem;
+}
+.metodi h3 {
+  padding-left: 1.8rem;
+}
+
+footer a {
+  color: #117777;
+}
