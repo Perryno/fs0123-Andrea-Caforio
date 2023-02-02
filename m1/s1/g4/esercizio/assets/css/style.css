@@ -83,6 +83,7 @@ main h1 {
 }
 
 main span {
+  font-weight: 600;
   color: #a91c70;
 }
 .perp p {
@@ -98,6 +99,48 @@ ol {
 .mas ul,
 ol {
   margin-left: 2rem;
+}
+
+.mas button {
+  border-radius: 6px;
+}
+
+table {
+  margin: 0 auto;
+  width: 70%;
+  border-bottom: solid #4c79ce 2px;
+}
+
+table .css {
+  font-weight: 600;
+  font-style: italic;
+}
+
+table .blu {
+  background-color: #4c79ce;
+  border: #000 solid 1px;
+  height: 60px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  line-height: 1.5rem;
+}
+
+.mas tbody tr {
+  border: #ddddde solid 1px;
+  line-height: 3rem;
+  text-align: center;
+  border-left: none;
+  border-right: none;
+}
+
+article a {
+  color: #0099cc;
+  font-weight: 600;
+}
+
+.mas iframe {
+  border-radius: 25px;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 
