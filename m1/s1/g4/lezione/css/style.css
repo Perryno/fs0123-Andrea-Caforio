@@ -1,0 +1,13 @@
+img {
+  max-width: 100%;
+}
+
+.quadrato {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+#q1 {
+  background-image: url(../assets/html5-mobile-app-native-hybrid-pros-cons.jpg);
+}
