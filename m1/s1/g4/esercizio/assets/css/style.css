@@ -14,7 +14,6 @@ nav ul {
 .container {
   background-size: cover;
   background-image: url(../img/sfondo.png);
-  max-width: 450px;
   padding: 15px;
   margin: 0 auto;
 }
