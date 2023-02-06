@@ -23,14 +23,15 @@ var due = prompt ('secondo valore da sommare')
 
 
 
-   var risultato = console.log(uno*due)
+   var risultato = uno*due
    document.write(parseInt(uno) + parseInt (due))
 
 
 var myArray = ['pantera', 'leone', 'giraffa']; //preso da internet questo meccanismo random
 var rand = Math.random()*myArray.length | 0;
+console.log (rand)
 var rValue = myArray[rand];
-var parola = console.log(rValue)
+var parola = rValue
 
 var lunghezza = rValue.length //fatto io
 console.log(lunghezza)
@@ -38,7 +39,7 @@ console.log(lunghezza)
 
 if (lunghezza > 5) {
     document.write(' la ' + myArray[rand])
-     //non riesco a far scrivere in html il contenuto della variabile parola ps. ho smattato ma ho risolto
+    
     
 }
 else {
