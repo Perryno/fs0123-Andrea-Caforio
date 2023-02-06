@@ -31,7 +31,7 @@ var myArray = ['pantera', 'leone', 'giraffa']; //preso da internet questo meccan
 var rand = Math.random()*myArray.length | 0;
 console.log (rand)
 var rValue = myArray[rand];
-var parola = rValue
+var parola = rValue 
 
 var lunghezza = rValue.length //fatto io
 console.log(lunghezza)
