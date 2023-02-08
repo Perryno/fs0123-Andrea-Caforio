@@ -55,7 +55,7 @@ let x = 12
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 const nome = 'Andrea'
-{let name = 'Caforio'} 
+{name = 'Caforio'} 
 //const nome = 'Perry';  
 //"Uncaught SyntaxError: Identifier 'nome' has already been declared"
 /* 
@@ -95,3 +95,5 @@ if (name1l != name2l){
 
     let risultato = name1l != name2l ? 'è diverso' : 'è uguale';
     console.log(risultato)
+
+
