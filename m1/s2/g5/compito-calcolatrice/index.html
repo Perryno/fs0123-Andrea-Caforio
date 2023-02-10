@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcolatrice-iOS</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="Iphone">
+      <div class="Oled">
+        <div class="Top">
+          <p id="Ora"></p>
+          <p id="Cing">5G</p>
+        </div>
+        <div class="Calculator">
+          <div class="Schermo">
+            <input type="text" id="Display" placeholder="0" />
+          </div>
+          <div class="Tasti">
+            <button class="Grigi" onclick="canc(this)">AC</button>
+            <button data-symbol="" class="Grigi" onclick="piumeno(this)">+/-</button>
+            <button data-symbol="%" class="Grigi" onclick="perc(this)">%</button>
+            <button data-symbol="/" class="Segno" onclick="aggiungi(this)">&#247;</button>
+            <button data-symbol="7" onclick="aggiungi(this)">7</button>
+            <button data-symbol="8" onclick="aggiungi(this)">8</button>
+            <button data-symbol="9" onclick="aggiungi(this)">9</button>
+            <button data-symbol="*" class="Segno" onclick="aggiungi(this)">x</button>
+            <button data-symbol="4" onclick="aggiungi(this)">4</button>
+            <button data-symbol="5" onclick="aggiungi(this)">5</button>
+            <button data-symbol="6" onclick="aggiungi(this)">6</button>
+            <button data-symbol="-" class="Segno" onclick="aggiungi(this)">-</button>
+            <button data-symbol="1" onclick="aggiungi(this)">1</button>
+            <button data-symbol="2" onclick="aggiungi(this)">2</button>
+            <button data-symbol="3" onclick="aggiungi(this)">3</button>
+            <button data-symbol="+" class="Segno" onclick="aggiungi(this)">+</button>
+            <button data-symbol="0" class="Zero" onclick="aggiungi(this)">0</button>
+            <button data-symbol="." onclick="aggiungi(this)">,</button>
+            <button data-symbol="" class="Segno" onclick="total(this)">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
